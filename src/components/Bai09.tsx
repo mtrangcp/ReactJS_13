@@ -1,4 +1,5 @@
 import { Component } from "react";
+import "../styles/Bai08.css";
 
 type StateType = {
   userName: string;
@@ -22,7 +23,9 @@ export default class Bai09 extends Component<Record<string, never>, StateType> {
     return (
       <>
         <div>Ten cong ty: {this.state.userName}</div>
-        <button onClick={handleClickBtn}>Change</button>
+        <button className="btn-change" onClick={handleClickBtn}>
+          Change
+        </button>
       </>
     );
   }
