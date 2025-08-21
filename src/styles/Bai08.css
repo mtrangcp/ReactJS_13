@@ -1,0 +1,61 @@
+body {
+  background-color: white;
+  color: black;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+button {
+  padding: 3px 10px;
+  margin: 5px;
+}
+
+button :hover {
+  cursor: pointer;
+}
+.btn-edit {
+  background-color: bisque;
+  border: 1px solid orange;
+  color: orange;
+}
+
+.btn-edit:hover {
+  background-color: rgb(255, 196, 87);
+  color: white;
+}
+
+.btn-del {
+  background-color: rgb(255, 196, 196);
+  border: 1px solid red;
+  color: red;
+}
+.btn-del:hover {
+  background-color: rgb(255, 87, 87);
+  color: white;
+}
+
+.completed {
+  background-color: rgb(204, 255, 229);
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 1px solid green;
+  color: green;
+}
+
+.uncompleted {
+  background-color: rgb(255, 204, 204);
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 1px solid red;
+  color: red;
+}
